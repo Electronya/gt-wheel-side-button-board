@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.2032
         }
       },
       "diff_pair_dimensions": [
@@ -57,6 +57,7 @@
         }
       ],
       "drc_exclusions": [
+        "lib_footprint_mismatch|201208787|80541498|58b7b85c-8548-4ca1-b58a-e95738d6bc4e|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|209332580|88338050|0d76ecbb-d010-49f1-ad2e-67afc477f97c|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|209332580|88338050|75f57f63-7901-4918-b193-2c7d98260cce|00000000-0000-0000-0000-000000000000"
       ],
